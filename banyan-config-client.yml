@@ -8,7 +8,7 @@ server:
 spring:
   profiles: dev
   application: 
-    name: microcloud-config-client
+    name: banyan-config-client
 eureka: 
   client:
     service-url:
@@ -19,7 +19,7 @@ server:
 spring:
   profiles: beta
   application: 
-    name: microcloud-config-client
+    name: banyan-config-client
 eureka: 
   client:
     service-url:
